@@ -46,11 +46,12 @@ include "connection.php";
             <a href="./login.php" class="text-princeton-orange-links font-bold hover:text-vermilion inline-flex items-center rounded mr-7 py-1 px-2 md:mt-0 mt-4 border-princeton-orange border hover:border-vermilion">LOGIN</a>
             <?php }?>
             <a href="./register.php" class="text-princeton-orange-links font-bold hover:text-vermilion inline-flex items-center rounded mr-7 py-1 px-2 md:mt-0 mt-4 border-princeton-orange border hover:border-vermilion">SIGN UP</a>
-            <button onclick="window.location.href='./cart.php';" class="inline-flex items-center">
-                <div class="text-3xl">
-                    <i class="fa fa-shopping-cart font-medium border-0 text-princeton-orange-links cursor-pointer focus:outline-none hover:text-vermilion rounded mt-4 md:mt-0"></i>
-                </div>
-            </button>
+            <a href="./cart.html" class="inline-flex items-center">
+                    <div class="text-3xl cart">
+                        <i class="fa fa-shopping-cart font-medium border-0 text-princeton-orange-links cursor-pointer focus:outline-none hover:text-vermilion rounded mt-4 md:mt-0"></i>
+                        <span class= "mr-5 text-princeton-orange-links font-bold hover:text-vermilion px-2">0</span>
+                    </div>
+                </a>
         </div>
     </div>
 </header>
@@ -97,6 +98,7 @@ include "connection.php";
                 <button class="flex ml-auto border-2 border-rosewood text-rosewood font-cabin rounded-sm py-2 px-6 focus:outline-none hover:bg-vermilion hover:text-black hover:border-vermilion">Add to cart</button>
               </div>
             </div>
+              <script src="main.js"></script>
           </div>
         </div>
     </section>
