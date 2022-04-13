@@ -95,7 +95,7 @@ include "connection.php";
               </div>
               <div class="flex">
                 <span class="font-cabin font-medium text-2xl text-rosewood">$19.99</span>
-                <button class="flex ml-auto border-2 border-rosewood text-rosewood font-cabin rounded-sm py-2 px-6 focus:outline-none hover:bg-vermilion hover:text-black hover:border-vermilion">Add to cart</button>
+                <button class="flex ml-auto border-2 border-rosewood text-rosewood font-cabin rounded-sm py-2 px-6 focus:outline-none hover:bg-vermilion hover:text-black hover:border-vermilion add-cart cart4">Add to cart</button>
               </div>
             </div>
               <script src="main.js"></script>
